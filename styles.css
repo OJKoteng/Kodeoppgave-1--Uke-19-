@@ -2,8 +2,8 @@
 background-color: #eee;
 max-width: 900px; 
 margin: 0 auto;
-display: grid;
-grid-template-columns: 300px 300px 300px;
+display: grid; 
+grid-template-columns: 300px 300px 300px; /* hei */
 }
 
 .container > div {
