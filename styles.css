@@ -4,6 +4,7 @@ max-width: 900px;
 margin: 0 auto;
 display: grid; 
 grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(9, 1fr);
 }
 
 .container > div {
@@ -13,6 +14,9 @@ padding: 20px;
 border: 1px solid #777;
 }
 
-.container > div:first-child {
-    grid-row:span 3;
+.container > div:nth-child(1) {
+    grid-row: span 9;
   }
+
+  
+  
