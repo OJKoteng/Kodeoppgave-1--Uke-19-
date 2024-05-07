@@ -3,7 +3,7 @@ background-color: #eee;
 max-width: 900px; 
 margin: 0 auto;
 display: grid; 
-grid-template-columns: 300px 300px 300px; /* hei */
+grid-template-columns: repeat(9, 1fr);
 }
 
 .container > div {
@@ -12,3 +12,7 @@ text-align: center;
 padding: 20px;
 border: 1px solid #777;
 }
+
+.container > div:first-child {
+    grid-row:span 3;
+  }
