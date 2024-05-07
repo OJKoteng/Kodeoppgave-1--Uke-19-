@@ -17,6 +17,22 @@ grid-template-columns: repeat(3, 1fr);
 gap: 10px;
 grid-auto-rows: minmax(200px,auto);
 margin: 100px,auto;
+max-width: 960px;
+padding: 10px;
+}
+
+.item {
+  background-color: steelblue;
+  color:white;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+@media (max-width: 800px) {
+  .container {
+      grid-template-columns: 1fr;
+      }
 }
 
   
